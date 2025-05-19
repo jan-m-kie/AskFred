@@ -1,8 +1,6 @@
 # AskFred
 
-Hier ist der vollständige **README-Text** für dein Frontend-Projekt, inklusive der Übersichtstabelle mit allen Dateien und Beschreibungen:
 
----
 
 ```markdown
 # Chatbot Frontend
@@ -63,7 +61,3 @@ Die Anwendung ist dann erreichbar unter: http://localhost:3000
 
 ---
 
-```
-
-Du kannst diesen Text direkt in deine `README.md` einfügen.  
-Möchtest du jetzt mit dem Backend-Teil weitermachen?
