@@ -1,10 +1,5 @@
 # AskFred
 
-
-
-```markdown
-# Chatbot Frontend
-
 Dies ist das Frontend des Chatbot-Projekts, entwickelt mit **Next.js**, **Tailwind CSS** und **TypeScript**.
 
 ## 🚀 Projektstruktur
