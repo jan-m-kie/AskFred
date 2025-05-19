@@ -1,11 +1,9 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:3000';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const { input } = req.body;
-
-  // Simuliere eine Session-Erstellung mit zufälliger ID
-  const sessionId = Math.random().toString(36).substring(2, 15);
-  const message = `Session started with input: ${input}. Session ID: ${sessionId}`;
-
-  res.status(200).json({ message });
-}
+const res = await fetch(`${backendUrl}/api/sessions/start`, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({ input }),
+});
